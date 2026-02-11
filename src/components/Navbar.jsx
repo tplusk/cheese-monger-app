@@ -1,16 +1,26 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 export default function Navbar() {
+  const location = useLocation();
+
+  const navLinks = [
+    { path: "/", label: "Home" },
+    { path: "/products", label: "Products" },
+    { path: "/contact", label: "Contact" },
+    { path: "/retailers", label: "Retailers" },
+  ];
   return (
     <div>
       <nav className="navbar">
-        <ul>
-          <div>
-            <Link to="/">Home</Link>
-          </div>
-          <Link to="/products">Products</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/retailers">Retailers</Link>
+        <ul id="navbarButtons">
+          {navLinks.map(
+            (link) =>
+              location.pathname !== link.path && (
+                <span key={link.path}>
+                  <Link to={link.path}>{link.label}</Link>
+                </span>
+              ),
+          )}
         </ul>
       </nav>
     </div>
