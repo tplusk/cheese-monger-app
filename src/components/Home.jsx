@@ -3,9 +3,10 @@ import cheesesOnTable from "../images/cheesesOnTable.jpg";
 export default function Home() {
   return (
     <div>
-      <header>Wisconsin Cheese Mongers</header>
-      <h2>Welcome!</h2>
-      <div className="pics" style={{ width: 900, height: 500 }}>
+      <div>
+        <h2>Welcome!</h2>
+      </div>
+      <div className="pics">
         <img
           id="cheesesOnTable"
           alt="cheesesOnTable"
