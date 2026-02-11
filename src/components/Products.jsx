@@ -37,14 +37,14 @@ export default function Products() {
 
   return (
     <div>
-      <h2>Badger Valley Creamery Product Line</h2>
+      <h2>Product Line</h2>
       <ul>
         {productList.map((category, index) => (
           <div key={index}>
             <h3>{category.productType}</h3>
             <ul>
-              {category.products.map((product, productType) => (
-                <li key={productType}>{product}</li>
+              {category.products.map((product, productIndex) => (
+                <li key={productIndex}>{product}</li>
               ))}
             </ul>
           </div>
