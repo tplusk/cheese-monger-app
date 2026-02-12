@@ -13,6 +13,9 @@ function App() {
   return (
     <>
       <div>
+        <header id="title">
+          <h1>Badger Valley Creamery</h1>
+        </header>
         <Navbar />
       </div>
       <div>
