@@ -1,7 +1,7 @@
 export default function Products() {
   const productList = [
     {
-      productType: "Aged Hard Cheeses",
+      productType: "Aged Hard Cheeses:",
       products: [
         "North Woods Reserve - 18-month aged cheddar with a sharp, crystalline bite",
         "Kettle Moraine Alpine - Swiss-style cheese with buttery notes and perfect melt",
