@@ -1,5 +1,5 @@
 export default function Retailers() {
-  const RetailersList = [
+  const retailersList = [
     {
       name: "The Cheese Board",
       address: "2847 North Avenue",
@@ -85,7 +85,7 @@ export default function Retailers() {
     <div>
       <h2>You can find our products at the following stores</h2>
       <ul>
-        {RetailersList.map((retailers, index) => (
+        {retailersList.map((retailers, index) => (
           <div key={index}>
             <h3>{retailers.name}</h3>
             <ul>
