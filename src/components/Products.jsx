@@ -1,5 +1,5 @@
 export default function Products() {
-  const productList = [
+  const ProductList = [
     {
       productType: "Aged Hard Cheeses",
       products: [
@@ -39,7 +39,7 @@ export default function Products() {
     <div>
       <h2>Product Line</h2>
       <ul className="productType">
-        {productList.map((category, index) => (
+        {ProductList.map((category, index) => (
           <div key={index}>
             <h3>{category.productType}</h3>
             <ul className="productTypeProd">
