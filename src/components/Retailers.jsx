@@ -83,7 +83,7 @@ export default function Retailers() {
   ];
   return (
     <div>
-      <h2>You can find our products at the following stores</h2>
+      <h2 id="subNav">You can find our products at the following stores</h2>
       <ul>
         {retailersList.map((retailers, index) => (
           <div key={index}>

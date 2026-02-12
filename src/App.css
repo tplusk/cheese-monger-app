@@ -6,13 +6,15 @@
   background-color: #d69754;
 }
 
+#subNav {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+/* App.tsx */
 #title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #f5f1e8;
-}
-
-#welcome {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -45,6 +47,15 @@
   padding: 0;
 }
 
+#rights {
+  padding-top: 10%;
+}
+
+/* Home.tsx */
+#welcome {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #cheesesOnTable {
   max-height: 80%;
   max-width: 80%;
@@ -53,10 +64,7 @@
   border-radius: 20%;
 }
 
-#rights {
-  padding-top: 10%;
-}
-
+/* Contact.tsx */
 .comp {
   color: antiquewhite;
 }

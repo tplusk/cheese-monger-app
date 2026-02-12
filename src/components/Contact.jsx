@@ -25,6 +25,9 @@ export default function Contact() {
   return (
     <div>
       <div className="comp">
+        <div>
+          <h2 id="subNav">You may contact us via the following channels:</h2>
+        </div>
         <h3 id="compAddress">Address: {directions()}</h3>
         <h3 id="compEmail">Email: {email()} </h3>
         <h3 id="compPhone">Phone: {phone()} </h3>
