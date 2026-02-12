@@ -37,16 +37,18 @@ export default function Products() {
 
   return (
     <div>
-      <h2>Product Line</h2>
+      <h2 id="subNav">Product Line</h2>
       <ul className="productType">
         {productList.map((category, index) => (
           <div key={index}>
             <h3>{category.productType}</h3>
-            <ul className="productTypeProd">
-              {category.products.map((product, productIndex) => (
-                <li key={productIndex}>{product}</li>
-              ))}
-            </ul>
+            <div>
+              <ul className="productTypeProd">
+                {category.products.map((product, productIndex) => (
+                  <ul key={productIndex}>{product}</ul>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
       </ul>
