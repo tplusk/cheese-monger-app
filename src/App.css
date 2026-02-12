@@ -8,6 +8,11 @@
 
 #title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #f5f1e8;
+}
+
+#welcome {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -25,7 +30,7 @@
 }
 
 .navbar a:hover {
-  color: orange;
+  color: #4a5568;
 }
 .navbar-navbarButtons {
   display: inline-block;
@@ -65,5 +70,5 @@
 #compAddress a:hover,
 #compEmail a:hover,
 #compPhone a:hover {
-  color: orange;
+  color: #4a5568;
 }
