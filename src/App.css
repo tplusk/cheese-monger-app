@@ -23,6 +23,7 @@
 #title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #3d2817;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .navbar {
@@ -35,6 +36,15 @@
   padding: 5%;
   background-color: #d4a574;
   border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: large;
+    padding: 1rem;
+  }
 }
 
 .navbar a {
