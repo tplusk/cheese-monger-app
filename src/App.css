@@ -152,3 +152,10 @@
   border-radius: 8px;
   border-left: 4px solid #db852a;
 }
+
+@media (max-width: 768px) {
+  #retailersListed {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+}
