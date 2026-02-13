@@ -3,11 +3,6 @@ import cheesesOnTable from "../assets/images/cheesesOnTable.jpg";
 export default function Home() {
   return (
     <div>
-      <header>
-        <div>
-          <h2 id="welcome">Welcome</h2>
-        </div>
-      </header>
       <main>
         <div className="pics">
           <img
