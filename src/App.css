@@ -63,6 +63,12 @@
   padding-right: 80%;
 }
 
+@media (max-width: 768px) {
+  .navbar-navbarButtons {
+    padding-right: 0;
+  }
+}
+
 #navbarButtons {
   display: flex;
   gap: 2rem;
@@ -70,9 +76,21 @@
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .navbar-navbarButtons {
+    padding-right: 0;
+  }
+}
+
 #rights {
   padding-top: 10%;
   color: #6b5444;
+}
+
+@media (max-width: 768px) {
+  #rights {
+    padding-top: 5%;
+  }
 }
 
 /* Home.tsx */
