@@ -1,4 +1,4 @@
-import cheesesOnTable from "../images/cheesesOnTable.jpg";
+import cheesesOnTable from "../assets/images/cheesesOnTable.jpg";
 
 export default function Home() {
   return (
