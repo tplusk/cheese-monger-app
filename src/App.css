@@ -6,6 +6,12 @@
   background-color: #edae42;
 }
 
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+}
+
 #subNav {
   font-family: "Courier New", Courier, monospace;
   font-weight: 700;
